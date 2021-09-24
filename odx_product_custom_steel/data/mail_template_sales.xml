@@ -84,10 +84,10 @@
                                                                     <!--                                                                         alt="Product image"></img>-->
                                                                 </td>
 
-                                                                <td style="font-size:11px;" width="12%">
+                                                                <!-- <td style="font-size:11px;" width="12%">
                                                                     <strong>${line.category_id.name}</strong>/
                                                                     <strong>${line.sub_category_id.name}</strong>
-                                                                </td>
+                                                                </td> -->
                                                                 <td style="font-size:11px;" width="15%">
                                                                     <strong>${line.product_id.display_name}</strong>
                                                                 </td>

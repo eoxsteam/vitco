@@ -154,7 +154,7 @@
                                     <field name="lot_id" options="{'no_create_edit': True}"/>
 
                                     <field name="category_id" invisible="1" force_save="1"/>
-                                    <field name="sub_category_id" readonly="1" force_save="1"/>
+                                    <field name="sub_category_id" readonly="1" force_save="1" invisible="1"/>
                                     <field name="product_id" readonly="1" force_save="1"/>
                                     <field name="thickness_in" readonly="1" force_save="1"/>
                                     <field name="width_in" readonly="1" force_save="1"/>
@@ -204,7 +204,7 @@
                                         <field name="category_id" invisible="1"/>
                                         <field name="sub_category_id"
                                                attrs="{'readonly': [('parent.operation', '!=', 'annealing')]}"
-                                               force_save="1"/>
+                                               force_save="1" invisible="1"/>
                                         <field name="product_id"
                                                attrs="{'readonly': [('parent.operation', '!=', 'annealing')]}"
                                                force_save="1"/>
@@ -267,7 +267,7 @@
 
                                         <field name="material_type" readonly="1" force_save="1"/>
                                         <field name="category_id" invisible="1"/>
-                                        <field name="sub_category_id" readonly="1" force_save="1"/>
+                                        <field name="sub_category_id" readonly="1" force_save="1" invisible="1"/>
                                         <field name="product_id" readonly="1" force_save="1"/>
                                         <field name="thickness_in" readonly="1" force_save="1"/>
                                         <field name="width_in" attrs="{'readonly': [('parent.state', '=', 'done')]}"/>
@@ -348,7 +348,7 @@
                                     <field name="picking_id" invisible="1"/>
                                     <field name="src_warehouse_id" invisible="1"/>
 
-                                    <field name="sub_category_id" readonly="1" force_save="1"/>
+                                    <field name="sub_category_id" readonly="1" force_save="1" invisible="1"/>
                                     <field name="product_id" readonly="1" force_save="1"/>
                                     <field name="width_in" readonly="1" force_save="1"/>
                                     <field name="thickness_in" readonly="1" force_save="1"/>

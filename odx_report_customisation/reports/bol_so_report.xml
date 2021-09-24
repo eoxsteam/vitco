@@ -151,8 +151,8 @@
                                     <th >Width<br/>(inches)</th>
                                     <th >Cut Length<br/>(inches)</th>
                                     <th >Type</th>
-                                    <th >Sub Product</th>
-                                    <th >Sub Categ</th>
+                                    <th >Product</th>
+                                    <!-- <th >Sub Categ</th> -->
                                     <th >Lot No</th>
                                     <th >Wt(lb)</th>
 
@@ -178,10 +178,10 @@
                                           <td>
                                            <span  t-esc="line.product_id.name"/>
                                         </td>
-                                          <td>
+                                        <!-- <td>
                                            <span  t-esc="line.sub_category_id.name"/>
-                                        </td>
-                                          <td>
+                                        </td> -->
+                                        <td>
                                            <span  t-esc="line.lot_id.name"/>
                                         </td>
                                          <td>

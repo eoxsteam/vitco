@@ -39,7 +39,7 @@
                                 </td>
                                 <!--                                <td width="10%"></td>-->
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td width="10%">
                                     <label for="category_id" string="Master"/>
 
@@ -47,22 +47,22 @@
                                 <td colspan="2">
                                     <field name="category_id"/>
 
-                                </td>
+                                </td> -->
                                 <!--                                 <td width="10%"></td>-->
-                            </tr>
-                            <tr>
-                                <td width="10%">
-                                    <label for="sub_category_id" string="Sub Category"/>
+                            <!-- </tr> -->
+                            <!-- <tr> -->
+                                <!-- <td width="10%"> -->
+                                    <!-- <label for="sub_category_id" string="Sub Category"/> -->
 
-                                </td>
-                                <td colspan="2">
-                                    <field name="sub_category_id"/>
-                                </td>
+                                <!-- </td> -->
+                                <!-- <td colspan="2"> -->
+                                    <!-- <field name="sub_category_id"/> -->
+                                <!-- </td> -->
                                 <!--                                  <td width="10%"></td>-->
-                            </tr>
+                            <!-- </tr> -->
                             <tr>
                                 <td width="10%">
-                                    <label for="product_id" string="Sub Product"/>
+                                    <label for="product_id" string="Product"/>
                                 </td>
                                 <td colspan="2">
                                     <field name="product_id"/>
@@ -177,7 +177,7 @@
                                 <field name="less_wastage" invisible="1"/>
 
                                 <field name="category_id" invisible="1"/>
-                                <field name="sub_category_id"/>
+                                <field name="sub_category_id" invisible="1"/>
                                 <field name="product_id"/>
                                 <field name="lot_id" string="Lot Number"/>
                                 <field name="width_in"/>

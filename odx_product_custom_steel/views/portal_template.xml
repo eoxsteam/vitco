@@ -848,9 +848,9 @@
                     <table class="table table-sm" id="sales_order_table">
                         <thead class="bg-100">
                             <tr>
-                                <th class="text-left">Master</th>
-                                <th class="text-left">Sub Category</th>
-                                <th class="text-left">Sub Product</th>
+                                <!-- <th class="text-left">Master</th> -->
+                                <!-- <th class="text-left">Sub Category</th> -->
+                                <th class="text-left">Product</th>
                                 <th class="text-left">Lot</th>
                                 <th class="text-left">Thickness(in)</th>
                                 <th class="text-left">Width(in)</th>
@@ -897,12 +897,12 @@
 
                                 <tr t-att-class="'bg-200 font-weight-bold o_line_section' if line.display_type == 'line_section' else 'font-italic o_line_note' if line.display_type == 'line_note' else ''">
                                     <t t-if="not line.display_type">
-                                        <td id="product_catg_name">
+                                        <!-- <td id="product_catg_name">
                                             <span t-field="line.category_id.name"/>
-                                        </td>
-                                        <td id="product_sub_catg_name">
+                                        </td> -->
+                                        <!-- <td id="product_sub_catg_name">
                                             <span t-field="line.sub_category_id.name"/>
-                                        </td>
+                                        </td> -->
                                         <td id="product_name">
                                             <span t-field="line.name"/>
                                         </td>

@@ -299,8 +299,8 @@
                             <group>
                                 <field name="vrm_spec_ids" nolabel="1">
                                     <tree editable="bottom">
-                                        <field name="product_category_id"/>
-                                        <field name="sub_category_id"/>
+                                        <!-- <field name="product_category_id"/> -->
+                                        <!-- <field name="sub_category_id"/> -->
                                         <field name="product_id"/>
                                         <field name="descriptions"/>
                                         <field name="product_qty" widget="integer"/>
