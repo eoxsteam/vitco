@@ -55,7 +55,7 @@
                 <xpath expr="//page/field[@name='sale_order_option_ids']/tree//field[@name='product_id']"
                        position="attributes">
 
-                    <attribute name="string">Sub Product</attribute>
+                    <attribute name="string">Product</attribute>
                 </xpath>
                 <xpath expr="//page/field[@name='sale_order_option_ids']/tree//field[@name='quantity']"
                        position="attributes">
@@ -75,13 +75,11 @@
                         <table width="100%">
                             <tr>
                                 <td width="15%">
-                                    <span style="font-size:14px;font-weight:bold">Master</span>
                                 </td>
                                 <td width="15%">
-                                    <span style="font-size:14px;font-weight:bold">Sub Category</span>
+                                    <span style="font-size:14px;font-weight:bold">Product</span>
                                 </td>
                                 <td width="15%">
-                                    <span style="font-size:14px;font-weight:bold">Sub Product</span>
                                 </td>
                                 <td width="10%"></td>
                                 <td width="15%"></td>
@@ -92,13 +90,13 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <field name="category_id" options="{'no_create_edit': True}"/>
-                                </td>
-                                <td>
-                                    <field name="sub_category_id" options="{'no_create_edit': True}"/>
+                                    <field name="category_id" options="{'no_create_edit': True}" invisible="1"/>
                                 </td>
                                 <td>
                                     <field name="product_id" options="{'no_create_edit': True}"/>
+                                </td>
+                                <td>
+                                    <field name="sub_category_id" options="{'no_create_edit': True}" invisible="1"/>
                                 </td>
                                 <td>
                                     <span style="font-size:13px;font-weight:bold;">Width(in)</span>

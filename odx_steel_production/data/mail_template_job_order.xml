@@ -64,11 +64,11 @@
 
                                                         <table width="100%">
                                                             <tr>
-                                                                <!-- <td style="font-size:12px;" width="12%">
+                                                                <td style="font-size:12px;" width="12%">
                                                                     <strong>Category</strong>
-                                                                </td> -->
+                                                                </td>
                                                                 <td style="font-size:12px;" width="15%">
-                                                                    <strong>Product</strong>
+                                                                    <strong>Sub Product</strong>
                                                                 </td>
                                                                 <td style="font-size:12px;" width="15%">
                                                                     <strong>Tag Number</strong>
@@ -91,9 +91,9 @@
                                                             % if object.multi_lot_line_ids:
                                                             % for line in object.multi_lot_line_ids:
                                                             <tr>
-                                                                <!-- <td style="font-size:11px;" width="12%">
+                                                                <td style="font-size:11px;" width="12%">
                                                                     <strong>${line.sub_category_id.name}</strong>
-                                                                </td> -->
+                                                                </td>
                                                                 <td style="font-size:11px;" width="15%">
                                                                     <strong>${line.product_id.display_name}</strong>
                                                                 </td>

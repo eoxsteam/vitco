@@ -14,14 +14,14 @@
                             <br/>
                             <table width="100%">
                                 <tr>
-                                    <!-- <td width="15%">
+                                    <td width="15%">
                                         <span style="font-size:14px;font-weight:bold">Master</span>
                                     </td>
                                     <td width="15%">
                                         <span style="font-size:14px;font-weight:bold">Sub Category</span>
-                                    </td> -->
+                                    </td>
                                     <td width="15%">
-                                        <span style="font-size:14px;font-weight:bold">Product</span>
+                                        <span style="font-size:14px;font-weight:bold">Sub Product</span>
                                     </td>
                                     <td width="10%"></td>
                                     <td width="15%"></td>
@@ -31,14 +31,14 @@
 
                                 </tr>
                                 <tr>
-                                    <!-- <td>
+                                    <td>
                                         <field name="category_id" options="{'no_create_edit': True}" widget="selection"
                                                readonly="1" force_save="1"/>
                                     </td>
                                     <td>
                                         <field name="sub_category_id" options="{'no_create_edit': True}"
                                                widget="selection" readonly="1" force_save="1"/>
-                                    </td> -->
+                                    </td>
                                     <td>
                                         <field name="product_id" options="{'no_create_edit': True}" widget="selection"
                                                readonly="1" force_save="1"/>
@@ -134,9 +134,9 @@
                                 <field name="operation"/>
                                 <field name="production_wizard_id" invisible="1"/>
                                 <field name="lot_id" readonly="1" force_save="1"/>
-                                <field name="category_id" readonly="1" force_save="1" invisible="1"/>
+                                <field name="category_id" readonly="1" force_save="1"/>
                                 <field name="category_id" invisible="1"/>
-                                <field name="sub_category_id" readonly="1" force_save="1" invisible="1"/>
+                                <field name="sub_category_id" readonly="1" force_save="1"/>
                                 <field name="product_id" readonly="1" force_save="1"/>
                                 <field name="width_in" readonly="1" force_save="1"/>
                                 <field name="thickness_in" readonly="1" force_save="1"/>

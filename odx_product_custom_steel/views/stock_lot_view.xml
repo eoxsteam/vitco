@@ -20,7 +20,7 @@
 
                 <xpath expr="//field[@name='product_id']" position="before">
                     <!--                    <field name="category_id"/>-->
-                    <field name="sub_category_id" invisible="1"/>
+                    <field name="sub_category_id"/>
 
                 </xpath>
                 <xpath expr="//field[@name='product_id']" position="after">
@@ -133,27 +133,27 @@
                                         </h1>
                                     </td>
                                 </tr>
-                                <!-- <tr>
+                                <tr>
                                     <td>
-                                        <label for="category_id"/>
+                                        <label for="category_id" invisible="1"/>
                                     </td>
                                     <td>
-                                        <field name="category_id" attrs="{'readonly': [('state', '=', 'confirm')]}"/>
+                                        <field name="category_id" attrs="{'readonly': [('state', '=', 'confirm')]}" invisible="1"/>
                                     </td>
-                                </tr> -->
+                                </tr>
 
-                                <!-- <tr>
+                                <tr>
                                     <td>
-                                        <label for="sub_category_id"/>
+                                        <label for="sub_category_id" invisible="1"/>
                                     </td>
                                     <td>
                                         <field name="sub_category_id"
-                                               attrs="{'readonly': [('state', '=', 'confirm')]}"/>
+                                               attrs="{'readonly': [('state', '=', 'confirm')]}" invisible="1"/>
                                     </td>
-                                </tr> -->
+                                </tr>
                                 <tr>
                                     <td>
-                                        <label for="product_id"/>
+                                        <label for="product_id" string="Product"/>
                                     </td>
                                     <td>
                                         <field name="product_id"/>

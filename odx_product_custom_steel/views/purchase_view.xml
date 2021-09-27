@@ -88,9 +88,9 @@
                         <field name="offering_ids" widget="section_and_note_one2many">
                             <tree string="Offers" editable="bottom">
                                 <field name="select"/>
-                                <field name="product_category_id"/>
-                                <field name="sub_category_id"/>
-                                <field name="product_id"/>
+                                <field name="product_category_id" invisible="1"/>
+                                <field name="sub_category_id" invisible="1"/>
+                                <field name="product_id" string="Product"/>
                                 <field name="name" string="Name"/>
                                 <field name="bids"/>
                                 <field name="product_group"/>

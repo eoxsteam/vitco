@@ -8,7 +8,7 @@
                 <xpath expr="//field[@name='product_tmpl_id']" position="before">
                     <field name="sub_category_id"
                            attrs="{ 'invisible':[('applied_on', 'in', ['2_product_category','3_global'])]}"
-                           options="{'no_create':1}" invisible="1"/>
+                           options="{'no_create':1}"/>
                 </xpath>
                 <xpath expr="//field[@name='product_tmpl_id']" position="after">
 

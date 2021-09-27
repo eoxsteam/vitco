@@ -1,2 +1,0 @@
-# vitco
-vitco customization

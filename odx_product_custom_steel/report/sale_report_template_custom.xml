@@ -75,8 +75,8 @@
                     <thead>
                         <tr>
 <!--                            <th name="th_master" class="text-left">Master</th>-->
-                            <!-- <th name="th_sub" class="text-left">Sub Category</th> -->
-                            <th name="th_description" class="text-left">Product</th>
+                            <th name="th_sub" class="text-left">Sub Category</th>
+                            <th name="th_description" class="text-left">Sub Product</th>
                             <th name="th_quantity" class="text-right">Weight</th>
                             <th name="th_width" class="text-right">Width(in)</th>
                             <th name="th_thickness" class="text-right">Thickness(in)</th>
@@ -109,9 +109,9 @@
 <!--                                    <td name="td_master">-->
 <!--                                        <span t-field="line.category_id"/>-->
 <!--                                    </td>-->
-                                    <!-- <td name="td_sub">
+                                    <td name="td_sub">
                                         <span t-field="line.sub_category_id"/>
-                                    </td> -->
+                                    </td>
                                     <td name="td_name">
                                         <span t-field="line.name"/>
                                     </td>
@@ -284,8 +284,8 @@
                     <thead>
                         <tr>
 <!--                            <th name="th_option_master" class="text-left">Master</th>-->
-                            <!-- <th name="th_option_categ" class="text-left">Sub Category</th> -->
-                            <th name="th_option_pro" class="text-left">Product</th>
+                            <th name="th_option_categ" class="text-left">Sub Category</th>
+                            <th name="th_option_pro" class="text-left">Sub Product</th>
                             <!--                        <th name="th_option_name" class="text-left">Description</th>-->
                             <th name="th_option_wt" class="text-left">Weight</th>
                             <th name="th_option_width" class="text-left">Width(in)</th>
@@ -302,9 +302,9 @@
 <!--                                <td name="td_option_master">-->
 <!--                                    <span t-field="option.category_id"/>-->
 <!--                                </td>-->
-                                <!-- <td name="td_option_sub_category">
+                                <td name="td_option_sub_category">
                                     <span t-field="option.sub_category_id"/>
-                                </td> -->
+                                </td>
                                 <td name="td_option_product">
                                     <span t-field="option.product_id"/>
                                 </td>
